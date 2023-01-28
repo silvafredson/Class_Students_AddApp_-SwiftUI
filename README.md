@@ -8,6 +8,7 @@ Made it in Swift and SwiftUI, this is a training applications where I learned th
 º MVVM
 <br>
 <br>
+![Untitled](https://user-images.githubusercontent.com/92945868/215280205-aacabb6c-213e-4f76-bc2e-e3d44b5cf962.gif)
 
 ### About the Plist storage
 <br>
