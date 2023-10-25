@@ -26,14 +26,14 @@ class StorageHandler {
 ```
 <br>
 
-In this class there's this computed property ULR type, with this procolo its can be change in execution time
+In this class there's this computed property ULR type, with this procolo it can be changed in execution time
 
 ```Swift
 static private var plistURL: URL {}
 ```
 <br>
 
-This is to find the documents directory inside of the App, the sand box, everything that is added to this sand box, the iOS allow us to change it any time.
+This is used to locate the documents directory inside the app's sandbox. Everything added to this sandbox can be modified by iOS at any time.
 ```Swift
 let documents = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
 ```
@@ -45,7 +45,7 @@ return documents.appendingPathComponent("students.plist")
 ```
 <br>
 
-2. Now I'm writing in the Plist file
+2. Now I'm writing into the Plist file
 ```Swift
 static func write(item: Student) {
     if !FileManager.default.fileExists(atPath: plistURL.path) {
